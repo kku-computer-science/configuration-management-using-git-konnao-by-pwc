@@ -23,21 +23,34 @@ def quickSort(arr, low, high):
         quickSort(arr, pi + 1, high)
 
 if __name__ == "__main__":
-    print("=== Sorting Program (Buble & Quick) ===")
-    arr = list(map(int, input("Please enter the number and คั่นด้วย spacebar: ").split()))
-    
-    print("\nPlease Choose:")
-    print("1. Quick Sort enter 1")
-    print("2. Bubble Sort enter 2")
+    while True:
+        print("=== Sorting Program (Buble & Quick) ===")
+        
+        print("\nPlease Choose:")
+        print("1. Quick: Sort enter 1")
+        print("2. Bubble: Sort enter 2")
+        print("3. Exit: enter 3")
 
-    choice = input("1/2: ")
-    
-    if choice == "1":
-        quickSort(arr, 0, len(arr) - 1)
-        print("\nผลลัพธ์ (Quick Sort):", arr)
-    elif choice == "2":
-        result = bubble_sort(arr)
-        print("\nผลลัพธ์ (Bubble Sort):", result)
-    else:
-        print("\nตัวเลือกไม่ถูกต้อง!")
+        choice = input("1/2/3: ")
+        if choice == "3":
+            print("Thank You!")
+            break
+
+        nums_str = input("ป้อนตัวเลขคั่นด้วย space: ")
+
+        try:
+            arr = list(map(int, nums_str.split()))
+        except ValueError:
+            print("กรุณาป้อนเฉพาะตัวเลขเท่านั้น!\n")
+            continue
+        
+        if choice == "1":
+            quickSort(arr, 0, len(arr) - 1)
+            print("\nผลลัพธ์ (Quick Sort):", arr)
+        elif choice == "2":
+            result = bubble_sort(arr)
+            print("\nผลลัพธ์ (Bubble Sort):", result)
+        else:
+            print("\nตัวเลือกไม่ถูกต้อง!")
+            continue
 
