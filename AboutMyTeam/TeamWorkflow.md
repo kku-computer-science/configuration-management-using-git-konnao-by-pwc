@@ -39,12 +39,11 @@ configuration-management-using-git-konnao-by-pwc/
 │
 ├── Project/
 │   ├── bubble_sort.py
-│   ├── quick_sort.py
-│   └── sort_manager.py
+│   └── main.py
 │
 └── README.md
 ````
-
+To Run thuis project, Run in main.py
 ---
 
 ## 4. การแบ่งงานและความรับผิดชอบ (Responsibility)
