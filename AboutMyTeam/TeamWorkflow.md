@@ -61,14 +61,14 @@ To Run thuis project, Run in main.py
 * พัฒนาอัลกอริทึม Quick Sort
 * สร้างไฟล์ `quick_sort.py`
 * ทดสอบความถูกต้องของอัลกอริทึม
-* Commit และ Push งานบน branch `Natthapong_2089`
+* Commit และ Push งานบน branch `natthapong_2089`
 
 ### สมาชิกที่ 3 : นายนราวิชญ์ ศิริพล (6633802144)
 
-* พัฒนาไฟล์ `sort_manager.py` สำหรับรวมอัลกอริทึมทั้งหมด
+* พัฒนาไฟล์ `main.py` สำหรับรวมอัลกอริทึมทั้งหมด
 * ตรวจสอบความถูกต้องของโค้ดทั้งหมด
 * เตรียม Repository ให้พร้อมสำหรับการส่งงาน
-* Commit และ Push งานบน branch `Narawit_2144`
+* Commit และ Push งานบน branch `narawit_2144`
 
 ---
 
