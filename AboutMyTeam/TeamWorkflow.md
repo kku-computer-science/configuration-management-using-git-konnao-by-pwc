@@ -39,6 +39,7 @@ configuration-management-using-git-konnao-by-pwc/
 │
 ├── Project/
 │   ├── bubble_sort.py
+│   ├── Quick_sort.py
 │   └── main.py
 │
 └── README.md
